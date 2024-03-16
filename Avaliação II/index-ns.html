@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Cursos - Prota</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Barra de navegação -->
+<nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+    <div class="container-fluid">
+        <img class="img-btn-navbar-prota" src="Imagens/android-chrome-192x192.2png" alt="icone">
+      <a class="navbar-brand" href="index.html"> 
+        <div>
+            Prota Developer
+        </div> 
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index-qs.html">Quem Somos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="index-ns.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Nossos Cursos 
+            </a> 
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="index-ns.html">Programação Front-end</a></li>
+              <li><a class="dropdown-item" href="index-ns.html">Programação Back-end</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="index-ns.html">Programação Full-Stack</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Mais
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="index-dda.html">Depoimentos dos Alunos</a></li>
+              <li><a class="dropdown-item" href="index-pf.html">Perguntas Frequentes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index-c.html">Contato</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <br> <br> 
+<!-- Nossos Cursos -->
+
+<h4 id="tt-nossoscursos">Cursos Disponíveis</h4>
+
+<div class="todo-carrossel container-sm"> <br>
+      
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div id="front-end">
+        <div class="carousel-inner container-sm">
+          <div class="carousel-item active">
+            <img src="Imagens/front-end.jpg" class="d-block w-100" alt="front-end" id="img-front-end">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 id="titulo-carrosel-front-end">Programação Front-End</h5>
+              <p id="subtitulo-carrosel-front-end">Desenvolvimento da interface gráfica do usuário. <br> Atuação essencial para implementação do design de um site através de códigos.</p>
+              <a class="btn btn-primary" href="https://wa.me/5585999011217" role="button">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+          <div id="back-end">
+          <div class="carousel-item">
+            <img src="Imagens/back-end.jpg" class="d-block w-100" alt="back-end" id="img-back-end">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 id="titulo-carrosel-back-end">Programação back-end</h5>
+              <p id="subtitulo-carrosel-back-end">Desenvolvimento da interface entre um site, o servidor e o banco de dados. <br> Atuação fundamental para garantir a eficiência e a segurança do sistema.</p>
+              <a class="btn btn-primary" href="https://wa.me/5585999011217" role="button">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <div id="full-stack">
+          <div class="carousel-item">
+            <img src="Imagens/fullstack.jpg" class="d-block w-100" alt="full-stack" id="img-full-stack">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 id="titulo-carrosel-full-stack">Programação full-stack</h5>
+              <p id="subtitulo-carrosel-full-stack">Desenvolvimento para profissionais que conhecem todos os aspectos da programação, sabendo transitar com facilidade entre as diferentes linguagens de programação para o front-end e em projetos de back-end.</p>
+              <a class="btn btn-primary" href="https://wa.me/5585999011217" role="button">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Contato -->
+
+  <div class="container-sm container-c-ns">
+
+    <div class="container text-center container-c-final">
+      <div class="row">
+
+        <div class="col col-c">
+          
+          <img src="Imagens/android-chrome-192x192.2png" alt="img-alt-c" id="img-c">
+          <p> <br>
+            <strong>
+              Prota Fortaleza LTDA <br>
+              CNPJ 43.082.596/0001-29 <br>
+              Escola de Habilidades Digitais
+            </strong>
+          </p>
+
+        </div>
+
+        <div class="col col-c">
+
+          <strong class="tt2-c">Prota Sul</strong> 
+          Washington Soares Trade Center - WSTC <br>
+          Av. Washington Soares, 3663 <br>
+          4º Andar, torre 2 <br>
+          Edson Queiroz, Fortaleza <br> <br> <br>
+          © 2024 Todos os direitos reservados 
+        </div>
+
+        <div class="col col-c">
+          <strong class="tt2-c">Central de Vendas:</strong> 
+          (85) 99972.1749 <br> <br>
+
+          <strong class="tt2-c">Atendimento ao Aluno:</strong> 
+          (85) 99753.0095 <br> <br> 
+
+          <a class="btn btn-primary" href="https://wa.me/5585999011217" role="button">Saiba Mais</a>
+          
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+  </html>

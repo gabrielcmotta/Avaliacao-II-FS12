@@ -1,0 +1,265 @@
+body {
+    background-image: url(Imagens/abstract-waves2.jpg);
+    background-color: black;
+    color: white;
+}
+
+/* Barra de navegação */
+
+.img-btn-navbar-prota {
+    width: 6vh;
+    height: 6vh;
+    margin-right: 12px;
+    margin-top: 2px;
+}
+
+/* Home */
+
+.container-home {
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.container-home2 {
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    border-radius: 5px;
+}
+
+.tx-home {
+    text-align: justify;
+    color: whitesmoke;
+    font-size: 3vh;
+}
+
+/* Nossos Cursos */
+
+.todo-carrossel {
+    width: 130vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+#tt-nossoscursos{
+    text-align: center;
+    color: white;
+    border-radius: 12px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#titulo-carrosel-front-end {
+    background-color: #212529;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+}
+
+#titulo-carrosel-back-end {
+    background-color: #212529;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+}
+
+#titulo-carrosel-full-stack {
+    background-color: #212529;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+}   
+
+#subtitulo-carrosel-front-end {
+    background-color: #212529;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+}
+
+#subtitulo-carrosel-back-end {
+    background-color: #212529 ;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+}
+
+#subtitulo-carrosel-full-stack {
+    background-color: #212529;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+#img-front-end {
+    border-radius: 12px;
+}
+
+#img-back-end {
+    border-radius: 12px;
+}
+
+#img-full-stack {
+    border-radius: 12px;
+}
+
+.container-c-ns {
+    max-width: 100%;
+    margin-top: 8vh;
+    background-color: #212529;
+    padding-bottom: 6px;
+    padding-top: 1px;
+}
+
+/* Depoimento dos alunos */
+
+#tt-dda {
+    margin-top: 3vh;
+    text-align: center;
+}
+
+.container-dda {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+
+.card-dda {
+    background-color: #212529;
+    color: whitesmoke;
+}
+
+.card-dda-alt {
+    background-color: #212529;
+    color: whitesmoke;
+    margin-top: 5vh;
+}
+
+.img-dda-final {
+    width: 8vh;
+    height: 8vh;
+    margin-right: 12px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+/* Quem Somos */
+
+#body-qs {
+    background-image: url(Imagens/gorilla-head.jpg);
+}
+
+.tx-card {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 4vh;
+}
+
+.container-qs {
+    padding-top: 8%;
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+}
+
+/* Perguntas Frequentes */
+
+#tt-pf {
+    margin-top: 6vh;
+    margin-bottom: 8vh;
+    text-align: center;
+}
+
+/* Contato */
+
+#tt-c-pagina {
+    margin-top: 3vh;
+    margin-bottom: 8vh;
+    text-align: center;
+}
+
+.container-c {
+    max-width: 100%;
+    margin-top: 30vh;
+    background-color: #212529;
+    padding-bottom: 6px;
+    padding-top: 1px;
+}
+
+.container-c-final {
+    margin-top: 10px;
+    padding-bottom: 6px;
+}
+
+#img-c {
+    width: 15vh;
+    height: 15vh;
+    margin-left: 23vh;
+    margin-right: 12px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.tt-c {
+    background-color: #212529;
+    color: white;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 10vh;
+}
+
+.tt2-c {
+    background-color: #212529;
+    color: white;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-c-dda {
+    max-width: 100%;
+    margin-top: px;
+    background-color: #212529;
+    padding-bottom: 6px;
+    padding-top: 1px;
+}
+
+/* A mais */
+.scrool {
+    display: block;
+    height: 200px;
+    margin: 20px;
+    background-color: #dff;
+  }
+
